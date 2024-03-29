@@ -1,0 +1,59 @@
+{
+  "name": "react-compose-provider",
+  "displayName": "React Compose Provider",
+  "version": "1.0.0",
+  "description": "Simple way to compose from multiple providers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "webpack --watch --config ./webpack.config.js --progress --mode=development",
+    "build": "webpack --config ./webpack.config.js --progress --mode=production",
+    "lint": "eslint .",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterprompt/react-compose-provider.git"
+  },
+  "keywords": [
+    "react",
+    "compose",
+    "provider",
+    "providers"
+  ],
+  "author": "Casey Kerr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masterprompt/react-compose-provider/issues"
+  },
+  "homepage": "https://github.com/masterprompt/react-compose-provider#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@types/react": "^18.2.71",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-webpack-plugin": "^4.1.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.3.3",
+    "ts-loader": "^9.5.1",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
