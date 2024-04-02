@@ -20,7 +20,7 @@ const copyright = (licenseFile) => `
 
 
 const configs = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
