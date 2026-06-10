@@ -37,7 +37,12 @@ const configs = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        use: {
+          loader: 'ts-loader',
+          options: {
+            configFile: 'tsconfig.build.json',
+          },
+        },
         exclude: /node_modules/,
       },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
